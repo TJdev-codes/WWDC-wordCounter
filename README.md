@@ -1,4 +1,5 @@
-# title(){return this.options.title||this.options.name}
+# Weekly Web Dev Challenge - 
+	to build a word counter.
 
 Quick start:
 
