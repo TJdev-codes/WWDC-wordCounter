@@ -19,7 +19,7 @@ body {
 
 textarea {
     height: 60%;
-    width: 80%;
+    max-width: 80%;
 }
 
 div h4 {
