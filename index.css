@@ -4,13 +4,13 @@ html, body {
 }
 
 body {
-    font-size: 50px;
-    font-family: 'Dosis', sans-serif;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
     height: 100vh;
-    background-color: gold;
+    background-image: url("lined_paper.png");
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,6 +20,30 @@ body {
 textarea {
     height: 60%;
     width: 80%;
+}
+
+div h4 {
+    font-size: clamp(.5rem, 2vw, 3rem);
+    font-weight: 900;
+    padding: 1em;
+    margin: .25em;
+    height: 15vh;
+    border: 1px solid black;
+    border-radius: 1em;
+    box-shadow: gray;
+}
+
+div p {
+    font-weight: 400;
+    text-align: center;
+    margin: 0.5em;
+}
+
+.stat-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-top: .25em;
 }
 
 
