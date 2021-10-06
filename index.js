@@ -4,7 +4,7 @@
 // - update the count as the user types
 
 // Stretch Goals: 
-// - display longest word DONE
+// - display longest word
 // - add character count
 // - add spell check
 // - add styling
