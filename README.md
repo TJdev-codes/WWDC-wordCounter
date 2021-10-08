@@ -1,20 +1,16 @@
 # Weekly Web Dev Challenge - 
 	to build a word counter.
 
-Quick start:
+Tasks: 
 
-```
-$ yarn # npm install
-$ yarn build # npm run build
-````
+- write the JS so that the word count appears on the screen
+- update the count as the user types
 
-## Development
-
-Run Webpack in watch-mode to continually compile the JavaScript as you work:
-
-```
-$ yarn watch # npm run watch
-```
+Stretch Goals: 
+- display longest word
+- add character count
+- add spell check
+- add styling
 
 ## Supporting Scrimba
 
