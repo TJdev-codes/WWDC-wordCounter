@@ -27,10 +27,12 @@ div h4 {
     font-weight: 900;
     padding: 1em;
     margin: .25em;
-    height: 15vh;
+    height: min-content;
     border: 1px solid black;
     border-radius: 1em;
-    box-shadow: gray;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+                0.125em 0.125em 0.25em rgba(0,0,0,.15);
+    background-color: white;
 }
 
 div p {
@@ -41,7 +43,8 @@ div p {
 
 .stat-boxes {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
     width: 80%;
     margin-top: .25em;
 }

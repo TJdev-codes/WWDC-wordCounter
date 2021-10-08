@@ -28,6 +28,8 @@ function longestWord(str) {
 }
 
 textField.addEventListener("keyup", () => {
+    let audio = new Audio("keyboardtype.wav")
+    audio.play()
     wordCountDisplay.textContent = wordCount(textField.value)
     charCountDisplay.textContent = charCount(textField.value)
     longestWordDisplay.textContent = longestWord(textField.value)
